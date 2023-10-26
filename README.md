@@ -14,3 +14,7 @@ git add abc.txt
 '''
 git commit -m 'this is my first commit'
 '''
+
+'''
+git pull
+'''
