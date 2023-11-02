@@ -16,7 +16,7 @@ from sklearn.preprocessing import OrdinalEncoder,StandardScaler
 from src.DimondPricePrediction.utils.utils import save_object
 
 @dataclass
-class DataTransformationConfig:
+class DataTransformationConfig: #Configuring data transformation
     preprocessor_obj_file_path=os.path.join('artifacts','preprocessor.pkl')
 
 
@@ -81,35 +81,35 @@ class DataTransformation:
     
     def initialize_data_transformation(self,train_path,test_path):
         try:
-            train_df=pd.read_csv(train_path)
+            train_df=pd.read_csv(train_path) #Firstly here we're reading training data and testing data
             test_df=pd.read_csv(test_path)
             
             logging.info("read train and test data complete")
             logging.info(f'Train Dataframe Head : \n{train_df.head().to_string()}')
             logging.info(f'Test Dataframe Head : \n{test_df.head().to_string()}')
             
-            preprocessing_obj = self.get_data_transformation()
+            preprocessing_obj = self.get_data_transformation() #We're now calling this method which will call the above try block
             
-            target_column_name = 'price'
+            target_column_name = 'price' #Here we're segregating the independant and dependant variables
             drop_columns = [target_column_name,'id']
             
-            input_feature_train_df = train_df.drop(columns=drop_columns,axis=1)
-            target_feature_train_df=train_df[target_column_name]
+            input_feature_train_df = train_df.drop(columns=drop_columns,axis=1) #Here we're passing the values of independant and dependant
+            target_feature_train_df=train_df[target_column_name] # columns
             
             
-            input_feature_test_df=test_df.drop(columns=drop_columns,axis=1)
+            input_feature_test_df=test_df.drop(columns=drop_columns,axis=1) 
             target_feature_test_df=test_df[target_column_name]
             
-            input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df)
+            input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df) #Here we're transforming the data
             
             input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
             
             logging.info("Applying preprocessing object on training and testing datasets.")
             
-            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)]
-            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)]
+            train_arr = np.c_[input_feature_train_arr, np.array(target_feature_train_df)] #Here we'll convert the train and test array
+            test_arr = np.c_[input_feature_test_arr, np.array(target_feature_test_df)] #  to a numpy object
 
-            save_object(
+            save_object( #We'll save the pkl object here
                 file_path=self.data_transformation_config.preprocessor_obj_file_path,
                 obj=preprocessing_obj
             )
