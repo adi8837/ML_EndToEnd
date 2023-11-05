@@ -6,8 +6,8 @@ class customexception(Exception):
         self.error_message = error_message
         _,_,exc_tb = error_details.exc_info()
         
-        self.lineno=exc_tb.tb_lineno #To fetch on which line number we're getting the error
-        self.file_name=exc_tb.tb_frame.f_code.co_filename #In which file we're getting error to help us debug
+        self.lineno=exc_tb.tb_lineno
+        self.file_name=exc_tb.tb_frame.f_code.co_filename 
     
     def __str__(self):
         return "Error occured in python script name [{0}] line number [{1}] error message [{2}]".format(
@@ -23,3 +23,4 @@ if __name__ == "__main__":
     
     except Exception as e:
         raise customexception(e,sys)
+        
