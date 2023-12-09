@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/fsds_master/ML_EndToEnd/mlruns/0/dcfb28f316a64604a256deb432924c74/artifacts
+end_time: 1702112881944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dcfb28f316a64604a256deb432924c74
+run_name: beautiful-newt-780
+run_uuid: dcfb28f316a64604a256deb432924c74
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702112868339
+status: 3
+tags: []
+user_id: Dell
