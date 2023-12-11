@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/fsds_master/ML_EndToEnd/mlruns/0/ff765626faba4d8297de5b563598dd72/artifacts
+end_time: 1702274862405
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ff765626faba4d8297de5b563598dd72
+run_name: sincere-shrimp-819
+run_uuid: ff765626faba4d8297de5b563598dd72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702274854638
+status: 3
+tags: []
+user_id: Dell

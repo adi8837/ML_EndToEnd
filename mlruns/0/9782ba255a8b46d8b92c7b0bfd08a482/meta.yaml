@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/fsds_master/ML_EndToEnd/mlruns/0/9782ba255a8b46d8b92c7b0bfd08a482/artifacts
+end_time: 1702275052320
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9782ba255a8b46d8b92c7b0bfd08a482
+run_name: awesome-owl-704
+run_uuid: 9782ba255a8b46d8b92c7b0bfd08a482
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702275043564
+status: 3
+tags: []
+user_id: Dell

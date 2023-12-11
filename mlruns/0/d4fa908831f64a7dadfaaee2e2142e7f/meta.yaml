@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/fsds_master/ML_EndToEnd/mlruns/0/d4fa908831f64a7dadfaaee2e2142e7f/artifacts
+end_time: 1702275427997
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4fa908831f64a7dadfaaee2e2142e7f
+run_name: casual-cub-951
+run_uuid: d4fa908831f64a7dadfaaee2e2142e7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702275420568
+status: 3
+tags: []
+user_id: Dell

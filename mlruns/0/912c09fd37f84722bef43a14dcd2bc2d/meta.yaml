@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/fsds_master/ML_EndToEnd/mlruns/0/912c09fd37f84722bef43a14dcd2bc2d/artifacts
+end_time: 1702275375092
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 912c09fd37f84722bef43a14dcd2bc2d
+run_name: nimble-gnu-249
+run_uuid: 912c09fd37f84722bef43a14dcd2bc2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702275367895
+status: 3
+tags: []
+user_id: Dell

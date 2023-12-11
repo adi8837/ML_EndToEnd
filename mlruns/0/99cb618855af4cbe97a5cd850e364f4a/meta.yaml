@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/fsds_master/ML_EndToEnd/mlruns/0/99cb618855af4cbe97a5cd850e364f4a/artifacts
+end_time: 1702275323782
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 99cb618855af4cbe97a5cd850e364f4a
+run_name: flawless-rat-112
+run_uuid: 99cb618855af4cbe97a5cd850e364f4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702275316507
+status: 3
+tags: []
+user_id: Dell

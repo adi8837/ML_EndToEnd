@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/fsds_master/ML_EndToEnd/mlruns/0/530bdfc3cae948b689efcd5542b97ca6/artifacts
+end_time: 1702274807320
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 530bdfc3cae948b689efcd5542b97ca6
+run_name: delicate-trout-708
+run_uuid: 530bdfc3cae948b689efcd5542b97ca6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702274796698
+status: 3
+tags: []
+user_id: Dell

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/fsds_master/ML_EndToEnd/mlruns/0/d7e639fefcca45279f7ea23f699d647d/artifacts
+end_time: 1702275105698
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7e639fefcca45279f7ea23f699d647d
+run_name: stylish-hawk-849
+run_uuid: d7e639fefcca45279f7ea23f699d647d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1702275098495
+status: 3
+tags: []
+user_id: Dell

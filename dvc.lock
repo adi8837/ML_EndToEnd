@@ -1,0 +1,46 @@
+schema: '2.0'
+stages:
+  training:
+    cmd: python src/DimondPricePrediction/pipelines/training_pipeline.py
+    deps:
+    - path: src/DimondPricePrediction/components/data_ingestion.py
+      hash: md5
+      md5: f75dfcd60fba01a34bc364ef7b40e786
+      size: 2028
+    - path: src/DimondPricePrediction/components/data_transformation.py
+      hash: md5
+      md5: 9be61baabf0f7cef1f8e70453ac576c6
+      size: 4997
+    - path: src/DimondPricePrediction/components/model_evaluation.py
+      hash: md5
+      md5: 2b0664aaa3cb28083056b5653695c2f4
+      size: 2150
+    - path: src/DimondPricePrediction/components/model_trainer.py
+      hash: md5
+      md5: 06d7f02c78197036f6d814c80295b674
+      size: 2520
+    - path: src/DimondPricePrediction/pipelines/training_pipeline.py
+      hash: md5
+      md5: e8fdda7e097951e52e460f8c90715fda
+      size: 937
+    outs:
+    - path: artifacts/model.pkl
+      hash: md5
+      md5: e9220bbcc969eb8c3faf64a10f8d76e2
+      size: 490
+    - path: artifacts/preprocessor.pkl
+      hash: md5
+      md5: bdc6eaa9d36ad69a1104c6b9eed3b8a9
+      size: 3025
+    - path: artifacts/raw.csv
+      hash: md5
+      md5: 4d3b99278017349368e70a85aa43bd7d
+      size: 10656378
+    - path: artifacts/test.csv
+      hash: md5
+      md5: 569bb1a9a6a34fec52da75db095be3bb
+      size: 2664414
+    - path: artifacts/train.csv
+      hash: md5
+      md5: eb4b1cd1f3561be55e968f19057f23af
+      size: 7992016
